@@ -4,7 +4,7 @@ import time
 from flask import Flask, abort, request, jsonify, g, url_for
 from flask_sqlalchemy import SQLAlchemy
 from flask_httpauth import HTTPBasicAuth
-import jwt
+from flask_jwt import jwt
 from werkzeug.security import generate_password_hash, check_password_hash
 
 # initialization
